@@ -1,3 +1,7 @@
+@font-face {
+    font-family: face;
+    src: url(shrift/InstrumentSerif-Regular.ttf);
+}
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -30,11 +34,11 @@ h1{
 }
 h2{
     font-size: 48px;
-    font-family: ;
+    font-family: 'face';
 }
 p{
     font-size: 32px;
-    font-family: ;
+    font-family: 'face';
 }
 #cover{
     height: 604px;
@@ -42,7 +46,8 @@ p{
     font-family: 'Bitter'
 }
 .image-in-cover{
-    float: right;
+    width: 400px;
+    
 }
 button{
     border-radius: 15px;
@@ -57,8 +62,16 @@ button{
     
 }
 .button-for-cover{
-    margin-top: 400px;
+    float: right;
 }
 button:hover{
     box-shadow: 8px 10px 5px 2px rgba(0, 0, 0, 0.2);
+}
+.cover-discription{
+    width: 450px;
+    margin: 0;
+    float: right;
+}
+p{
+    margin: 0;
 }

@@ -31,6 +31,7 @@ a {
 h1{
     align-items: center;
     font-size: 64px;
+    width: 1140PX;
 }
 h2{
     font-size: 48px;
@@ -41,6 +42,7 @@ p{
     font-size: 32px;
     font-family: 'face';
 }
+
 #cover{
     height: 604px;
     display: flex;
@@ -100,4 +102,19 @@ p{
 }
 #catalog{
     padding-top: 100px;
+}
+#autorization{
+    text-align: center;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    width: 744px;
+    height: 101px;
+    border-radius: 15px;
+    background-color: rgba(221, 201, 170, 1);
 }

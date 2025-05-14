@@ -158,4 +158,69 @@ input{
     justify-content: center;
 
 }
+.full-menu-for-button{
+    width:1123px ;
+    height: 633px;
+    background-image: url(photo/full-catalogs.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    border-radius: 25px;
+}
+.full-menu-button{
+    background-color: rgba(166, 142, 116, 1);
+}
+.bottom-row-elements-catalog{
+    margin-top: 10px;
+}
+.top-row-elements-catalog{
+    margin-bottom: 10px;
+}
+#delivery-and-payment{
+    background-image: url(photo/Background-d&p.png);
+    height: 471px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    margin-top: 20px;
+    gap: 20px;
+}
+.delivery-block{
+    height: 377px;
+    width: 540px;
+    background-color: rgba(232, 212, 182, 1);
+    border-radius: 25px;
+}
+.payment-block{
+    height: 377px ;
+    width: 540px;
+    background-color: rgba(232, 212, 182, 1);
+    border-radius: 25px;
+}
+.h2-for-dap{
+    margin-left: 300px;
+
+}
+.dap-content{
+    display: flex;
+}
+li{
+    font-size: 32px;
+}
+#contact{
+    height: 598px;
+}
+.contact-but{
+    background-color: rgba(166, 142, 116, 1);
+    height: 69px;
+    width: 575px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    border-radius: 20px;
+
+}
 

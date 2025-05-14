@@ -223,4 +223,41 @@ li{
     border-radius: 20px;
 
 }
+.all-towar-card{
+    height: 434px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.towar-card{
+    width: 312px;
+    height: 434px;
+    background-color: rgba(227, 201, 171, 0.87);
+    border-radius: 25px;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+}
+.card-content{
+    margin-top: 15px;
+}
+.white-text{
+    color: white;
+}
+.text-14px{
+    font-size: 14px;
+}
+.button-card-towar{
+    width: 245px ;
+    height: 49px;
+    font-size: 24px ;
+}
+.horizontal-middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
 

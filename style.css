@@ -133,6 +133,7 @@ input{
     background-color: rgba(227, 201, 171, 0.87);
     border-radius: 15px;
     text-align: center;
+    margin: 20px;
 
 }
 .text-in-footer{
@@ -144,7 +145,6 @@ input{
 }
 .spisok-in-footer{
     width: 344px;
-    column-count: auto;
 }
 .footer-contant{
     display: flex;
@@ -211,6 +211,7 @@ li{
 }
 #contact{
     height: 598px;
+    margin-bottom: 50px;
 }
 .contact-but{
     background-color: rgba(166, 142, 116, 1);
@@ -221,6 +222,7 @@ li{
     vertical-align: middle;
     justify-content: center;
     border-radius: 20px;
+    margin: 20px;
 
 }
 .all-towar-card{
@@ -258,6 +260,25 @@ li{
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding-top: 20px;
 
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footer-background{
+    height: 400px;
+    background-color: rgba(210, 190, 160, 1);
+}
+.margin-bottom{
+    margin-bottom: 50px;
+}
+.contacts-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
